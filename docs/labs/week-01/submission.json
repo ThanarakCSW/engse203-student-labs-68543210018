@@ -1,16 +1,16 @@
 {
   "week": "week-01",
   "title": "Developer Environment & GitHub Repository Setup",
-  "status": "draft",
-  "sourceOrigin": "course-starter",
-  "originalRepoUrl": "",
-  "originalCommit": "",
+  "status": "ready",
+  "sourceOrigin": "migrated-repository",
+  "originalRepoUrl": "https://github.com/ThanarakCSW/engse203-lab01-68543210018-6.git",
+  "originalCommit": "0f7b1ccb3eb61b3f5b9224d9d53b8aa7c4169b01",
   "pullRequestUrl": "",
-  "submissionTag": "",
-  "testStatus": "not-tested",
+  "submissionTag": "lab-01-submission-v1",
+  "testStatus": "pass",
   "notes": "LAB 1 ใช้ evidence report ได้โดยไม่ต้องมี web application",
   "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-01/",
   "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-01/labs/week-01/source",
   "hasPublish": false,
-  "sourceEntries": 0
+  "sourceEntries": 3
 }
