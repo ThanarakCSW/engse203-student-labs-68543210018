@@ -1,8 +1,8 @@
 {
   "week": "week-04",
   "title": "React Campus Service Request",
-  "status": "draft",
-  "sourceOrigin": "course-starter",
+  "status": "ready",
+  "sourceOrigin": "migrated-repository",
   "originalRepoUrl": "",
   "originalCommit": "",
   "pullRequestUrl": "",
