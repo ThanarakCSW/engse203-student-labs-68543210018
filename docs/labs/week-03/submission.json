@@ -2,7 +2,7 @@
   "week": "week-03",
   "title": "Responsive Web UI & Form Interaction",
   "status": "ready",
-  "sourceOrigin": "migration-repository",
+  "sourceOrigin": "migrated-repository",
   "originalRepoUrl": "https://github.com/ThanarakCSW/engse203-lab03-68543210018-6.git",
   "originalCommit": "9ad52384833ae47c4715b3c638f5a978c06e226a",
   "pullRequestUrl": "",
@@ -12,5 +12,5 @@
   "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-03/",
   "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-03/labs/week-03/source",
   "hasPublish": true,
-  "sourceEntries": 9
+  "sourceEntries": 8
 }
