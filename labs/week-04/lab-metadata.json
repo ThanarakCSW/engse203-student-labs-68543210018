@@ -1,12 +1,12 @@
 {
   "week": "week-04",
   "title": "React Campus Service Request",
-  "status": "ready",
+  "status": "submitted",
   "sourceOrigin": "migrated-repository",
-  "originalRepoUrl": "",
-  "originalCommit": "",
-  "pullRequestUrl": "",
-  "submissionTag": "",
-  "testStatus": "not-tested",
+  "originalRepoUrl": "https://github.com/ThanarakCSW/engse203-lab04-68543210018-6.git",
+  "originalCommit": "0236ced9bfb61ddb0bbca3f14f90f803b283c55a",
+  "pullRequestUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/pull/6#issue-5093862984",
+  "submissionTag": "lab-04-submission-v1",
+  "testStatus": "pass",
   "notes": "React/Vite build output ต้องอยู่ใน publish/ ก่อนสร้าง Pages Hub"
 }
