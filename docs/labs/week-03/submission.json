@@ -1,16 +1,16 @@
 {
   "week": "week-03",
   "title": "Responsive Web UI & Form Interaction",
-  "status": "draft",
-  "sourceOrigin": "course-starter",
-  "originalRepoUrl": "",
-  "originalCommit": "",
-  "pullRequestUrl": "",
-  "submissionTag": "",
-  "testStatus": "not-tested",
+  "status": "submitted",
+  "sourceOrigin": "migrated-repository",
+  "originalRepoUrl": "https://github.com/ThanarakCSW/engse203-lab03-68543210018-6.git",
+  "originalCommit": "9ad52384833ae47c4715b3c638f5a978c06e226a",
+  "pullRequestUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/pull/3#issue-5093145816",
+  "submissionTag": "lab-03-submission-v1",
+  "testStatus": "pass",
   "notes": "Static site ต้องมี index.html ที่ publish root",
   "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-03/",
   "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-03/labs/week-03/source",
-  "hasPublish": false,
-  "sourceEntries": 0
+  "hasPublish": true,
+  "sourceEntries": 8
 }
