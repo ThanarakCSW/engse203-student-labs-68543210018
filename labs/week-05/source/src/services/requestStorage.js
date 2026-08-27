@@ -5,7 +5,7 @@
  * ส่วน validateRequests() และค่าคงที่ด้านล่างเตรียมไว้ให้แล้ว
  */
 
-export const STORAGE_KEY = "engse203-campus-requests-v1";
+export const STORAGE_KEY = 'engse203-campus-requests-v1';
 export const SCHEMA_VERSION = 1;
 
 const priorities = new Set(["normal", "urgent"]);
