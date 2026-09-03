@@ -162,6 +162,7 @@ function DashboardPage() {
             </div>
             {/* TODO B2: วางช่อง <input> ค้นหา ตรงนี้ (เหนือรายการ) แล้วกรองร่วมกับตัวกรองสถานะ ค้นจากประเภท/สถานที่ */}
             <input type="text" placeholder="ค้นหาจากประเภทหรือสถานที่" value={searchText} onChange={(e) => setSearchText(e.target.value)} />
+            
             {/* TODO B3: ส่ง onAcknowledge={handleAcknowledge} ให้ RequestList เพื่อให้การ์ด pending มีปุ่ม "รับเรื่อง" */}
             <RequestList
               requests={filteredRequests}

@@ -22,7 +22,7 @@
 ## เช็คลิสต์ (ติ๊ก x ในวงเล็บเมื่อทำเสร็จ)
 
 - [x] B1 แก้ครบ 6 จุด + `B1_BUGS.md` กรอกครบ
-- [ ] B2 ค้นหาทำงานครบ 4 checkpoint
+- [x] B2 ค้นหาทำงานครบ 4 checkpoint
 - [ ] B3 ปุ่ม "ทำเสร็จ" persist + รอด refresh (F5 แล้วยังอยู่)
 - [ ] B4 `PriorityBadge` + ใช้ใน `RequestCard`
 - [ ] `npm run build` ผ่าน
