@@ -70,10 +70,15 @@ function DashboardPage() {
     [requests],
   );
 
-  const filteredRequests =
-    statusFilter === "all"
-      ? requests
-      : requests.filter((request) => request.status === statusFilter);
+  const filteredRequests = requests.filter((request) => {
+    statusFilter === "all" || request.status === statusFilter;
+  const query = searchText.trim().toLowerCase();
+  const matchesSearch =
+    query === "" ||
+    (request.requestType ?? "").toLowerCase().includes(query) ||
+    (request.location ?? "").toLowerCase().includes(query);
+  return matchesSearch;
+});
 
   function handleRetry() {
     if (scenario) setSearchParams({});
