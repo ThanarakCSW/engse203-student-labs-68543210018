@@ -73,11 +73,13 @@ function DashboardPage() {
   const filteredRequests = requests.filter((request) => {
     statusFilter === "all" || request.status === statusFilter;
   const query = searchText.trim().toLowerCase();
+  const matchesStatus =
+      statusFilter === "all" || request.status === statusFilter;
   const matchesSearch =
     query === "" ||
     (request.requestType ?? "").toLowerCase().includes(query) ||
     (request.location ?? "").toLowerCase().includes(query);
-  return matchesSearch;
+  return matchesStatus&&matchesSearch;
 });
 
   function handleRetry() {
