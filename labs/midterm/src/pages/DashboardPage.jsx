@@ -57,6 +57,7 @@ function DashboardPage() {
     };
   }, [scenario, reloadKey]);
 
+
   const summary = useMemo(
     () => ({
       total: requests.length,
@@ -64,13 +65,19 @@ function DashboardPage() {
         .length,
       inProgress: requests.filter((request) => request.status === "in-progress")
         .length,
+        /*BUG 2*/
+        /* OLD CODE: completed: requests.filter((request) => request.status === 'in-progress').length, */
       completed: requests.filter((request) => request.status === "completed")
         .length,
-    }),
-    [requests],
+        /* BUG 5 */
+        /* OLD CODE:, []);*/
+    }), [requests],
   );
 
+
   const filteredRequests = requests.filter((request) => {
+    /* BUG 3 */
+    /* OLD CODE: requests.filter((request) => request.status === 'pending'); */
     statusFilter === "all" || request.status === statusFilter;
   const query = searchText.trim().toLowerCase();
   const matchesStatus =
@@ -89,6 +96,8 @@ function DashboardPage() {
 
   async function handleDelete(requestId) {
     try {
+      /* BUG 6 */
+      /* OLD CODE: const nextRequests = deleteRequest(requestId);*/
       const nextRequests = await deleteRequest(requestId);
       setRequests(nextRequests);
       setNotice(`ลบคำร้อง ${requestId} แล้ว`);

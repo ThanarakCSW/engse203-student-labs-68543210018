@@ -10,7 +10,7 @@ function RequestDetailPage() {
   const [loadState, setLoadState] = useState('loading');
   const [request, setRequest] = useState(null);
   const [errorMessage, setErrorMessage] = useState('');
-  const [reloadKey, reload] = useManualReload();
+  const [reloadKey, reload] = useManualReload(); // เดิมมีการประกาศ แต่ไม่ถูกเรียกใช้ใน useEffect จึงทำให้เกิด BUG 4
 
   useEffect(() => {
     let ignore = false;
@@ -25,6 +25,8 @@ function RequestDetailPage() {
       setLoadState('error');
     });
     return () => { ignore = true; };
+    /* BUG 4 */
+    /* OLD CODE: }, []); */
   }, [requestId , reloadKey]);
 
   return (
