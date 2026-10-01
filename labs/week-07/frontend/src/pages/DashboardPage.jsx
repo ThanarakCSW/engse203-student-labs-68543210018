@@ -67,21 +67,20 @@ function DashboardPage() {
   }
 
   async function handleReset() {
-    if (!window.confirm('ต้องการคืนข้อมูลตัวอย่างเริ่มต้นหรือไม่?')) return;
     try {
       setRequests(await resetRequests());
       setStatusFilter('all');
-      setNotice('คืนข้อมูลตัวอย่างเริ่มต้นแล้ว');
+      setNotice('โหลดข้อมูลล่าสุดจาก API แล้ว');
     } catch (error) {
-      setNotice(error instanceof Error ? error.message : 'คืนข้อมูลไม่สำเร็จ');
+      setNotice(error instanceof Error ? error.message : 'โหลดข้อมูลไม่สำเร็จ');
     }
   }
 
   return (
     <section data-testid="page-dashboard">
       <div className="page-heading">
-        <div><p className="eyebrow dark">ROUTED + PERSISTENT</p><h1>Dashboard</h1><p>ติดตามคำร้องจาก URL, Service Layer และ browser storage</p></div>
-        <button className="button secondary" data-testid="reset-button" type="button" onClick={handleReset}>Reset Demo Data</button>
+        <div><p className="eyebrow dark">ROUTED + PERSISTENT</p><h1>Dashboard</h1><p>ติดตามและจัดการคำร้องจาก API</p></div>
+        <button className="button secondary" data-testid="reset-button" type="button" onClick={handleReset}>โหลดข้อมูลล่าสุด</button>
       </div>
       {scenario && <p className="lab-scenario" role="status">LAB test scenario: {scenario}</p>}
       {notice && <p className="notice" role="status">{notice}</p>}

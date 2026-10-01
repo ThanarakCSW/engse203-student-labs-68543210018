@@ -17,6 +17,8 @@ export { ApiError };
  *   ใช้ encodeURIComponent() ป้องกันอักขระพิเศษ
  */
 export async function getRequests(options = {}) {
+  if (options.scenario === 'error') throw new ApiError('จำลองข้อผิดพลาดในการโหลดคำร้อง', 0);
+  if (options.scenario === 'empty') return [];
   const query = options.status ? `?status=${encodeURIComponent(options.status)}` : '';
   return await apiFetch(`/api/requests${query}`);
 }
@@ -54,7 +56,7 @@ export async function addRequest(requestInput) {
  * body: { status }
  */
 export async function updateRequestStatus(requestId, status) {
-  await apiFetch(`/api/requests/${encodeURIComponent(requestId)}`, {
+  return apiFetch(`/api/requests/${encodeURIComponent(requestId)}`, {
     method: 'PUT',
     body: JSON.stringify({ status }),
   });

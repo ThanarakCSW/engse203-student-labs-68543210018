@@ -10,9 +10,15 @@ function RequestCard({ request, onDeleteRequest }) {
         <p>{request.details}</p>
         <p><span className={`badge ${request.status}`}>{request.status}</span> · {request.priority}</p>
       </div>
-      <button className="button danger" type="button" onClick={() => onDeleteRequest(request.id)} aria-label={`ลบคำร้อง ${request.id}`}>
-        ลบ
-      </button>
+      <div>
+        <Link className="button primary" style={{ alignSelf: 'center', textDecoration: 'none' }} to={`/requests/${encodeURIComponent(request.id)}`} aria-label={`เปลี่ยนสถานะคำร้อง ${request.id}`}>
+          เปลี่ยนสถานะ
+        </Link>
+         &nbsp;
+        <button className="button danger" type="button" onClick={() => onDeleteRequest(request.id)} aria-label={`ลบคำร้อง ${request.id}`}>
+          ลบ
+        </button>
+      </div>
     </article>
   );
 }
