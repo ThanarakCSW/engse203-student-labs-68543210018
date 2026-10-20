@@ -1,0 +1,9 @@
+{
+  "week": "week-09",
+  "title": "SQL Fundamentals and Relational Database Design",
+  "status": "ready",
+  "sourceOrigin": "student-created",
+  "submissionTag": "lab-09-submission-v1",
+  "testStatus": "pass",
+  "notes": "Relational schema design with SQLite, queries, indexes, and documentation"
+}

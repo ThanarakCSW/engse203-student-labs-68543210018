@@ -2,7 +2,7 @@
 -- playground-seed.sql — วางใน SQL playground เพื่อเริ่ม CP17
 -- ENGSE203 สัปดาห์ที่ 9
 --
--- 📋 วิธีใช้
+-- วิธีใช้
 --   1. เปิด https://sqlime.org/ (หรือ sqliteonline.com)
 --   2. คัดลอกไฟล์นี้ทั้งหมด วางในช่องพิมพ์ แล้วกด Run
 --   3. ทีนี้ลอง SELECT ได้เลย
