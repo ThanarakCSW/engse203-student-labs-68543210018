@@ -397,7 +397,7 @@ cd frontend && npm install && cp .env.example .env.local && npm run dev
 
 ---
 
-## 📌 หลักการที่ควรจำ
+## หลักการที่ควรจำ
 
 | หลักการ | เหตุผล |
 |---|---|
