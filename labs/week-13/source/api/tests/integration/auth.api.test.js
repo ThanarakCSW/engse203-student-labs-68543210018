@@ -3,13 +3,17 @@ import request from 'supertest';
 import { createApp } from '../../src/app.js';
 import { loadSeed } from '../../src/services/requestService.js';
 import { STAFF, loginAsStaff, tokenFor } from '../helpers/auth.js';
+import { resetLoginLimiter } from '../../src/routes/authRoutes.js';
 
 /**
  * Week 13 — เข้าสู่ระบบและสิทธิ์
  * test 3 ข้อแรกให้มาแล้ว — จะ fail จนกว่าจะทำ CP50–CP51 เสร็จ (เขียน test ก่อน แล้วทำให้ผ่าน)
  */
 const app = createApp();
-beforeEach(async () => { await loadSeed(); });
+beforeEach(async () => {
+  resetLoginLimiter();
+  await loadSeed();
+});
 
 describe('POST /api/auth/login', () => {
   test('อีเมลและรหัสผ่านถูก → 200 พร้อม token', async () => {
