@@ -1,0 +1,9 @@
+{
+  "week": "week-10",
+  "title": "Node.js Database Integration with SQLite",
+  "status": "ready",
+  "sourceOrigin": "student-created",
+  "submissionTag": "lab-10-submission-v1",
+  "testStatus": "pass",
+  "notes": "SQLite integration with node:sqlite, parameterized queries, joins, transactions, and tests"
+}
