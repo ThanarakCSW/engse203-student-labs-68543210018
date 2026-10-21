@@ -1,0 +1,13 @@
+{
+  "week": "week-07",
+  "title": "REST API Integration and Validation",
+  "status": "ready",
+  "sourceOrigin": "student-created",
+  "submissionTag": "lab-07-submission-v1",
+  "testStatus": "pass",
+  "notes": "Completed CORS, env config, API contract, and integration tests",
+  "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-07/",
+  "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-07/labs/week-07/source",
+  "hasPublish": false,
+  "sourceEntries": 2
+}
