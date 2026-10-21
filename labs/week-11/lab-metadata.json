@@ -1,9 +1,10 @@
 {
   "week": "week-11",
   "title": "Full-Stack Integration (React, Express, SQLite)",
-  "status": "ready",
+  "status": "submitted",
   "sourceOrigin": "student-created",
   "submissionTag": "lab-11-submission-v1",
+  "pullRequestUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/pull/21#issue-5966434931",
   "testStatus": "pass",
   "notes": "Full-stack integration ready for production with config, health check, and CI"
 }

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ENGSE203 Week 11 — Campus Service Full-Stack</title>
+  <style>
+    body { margin: 0; font-family: Tahoma, Arial, sans-serif; color: #10253d; background: #eef4f8; }
+    main { max-width: 860px; margin: 40px auto; padding: 32px; background: #fff; border-radius: 16px; box-shadow: 0 12px 32px #0a27451c; }
+    h1 { color: #092746; margin-top: 0; }
+    .badge { display: inline-block; padding: 6px 12px; border-radius: 99px; background: #e5f1fa; color: #075ea8; font-weight: bold; font-size: 14px; margin-bottom: 16px; }
+    p { line-height: 1.6; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin: 24px 0; }
+    .card { padding: 18px; border: 1px solid #c7d8e6; border-radius: 12px; background: #f6f9fc; }
+    .card strong { color: #092746; display: block; margin-bottom: 6px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+    .btn { display: inline-block; padding: 12px 20px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 15px; }
+    .btn-primary { background: #1261a6; color: #fff; }
+    .btn-primary:hover { background: #0c4a80; }
+    .btn-secondary { background: #edf3f8; color: #092746; border: 1px solid #c4d6e4; }
+    .btn-secondary:hover { background: #dce7f0; }
+    .notice { padding: 14px 18px; border-left: 4px solid #1261a6; background: #f0f6fb; border-radius: 6px; margin: 20px 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <a href="../../index.html" style="color: #075ea8; text-decoration: none; font-weight: bold;">← กลับหน้า LAB Portfolio</a>
+    <div style="margin-top: 18px;">
+      <span class="badge">Week 11 • Full-Stack Web Application</span>
+      <h1>Campus Service — ระบบรับคำร้องขอใช้บริการ (Full-Stack)</h1>
+      <p>ระบบบูรณาการ 3 ชั้น (Three-Tier Architecture) ทำงานร่วมกันระหว่าง <strong>React 18</strong>, <strong>Express API</strong> และฐานข้อมูล <strong>SQLite (campus.db)</strong> พร้อมรองรับการรันโหมด Production บนพอร์ตเดียว (Single Port)</p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <strong>สถาปัตยกรรมระบบ</strong>
+        <span>3-Tier (React + Express + SQLite)</span>
+      </div>
+      <div class="card">
+        <strong>ผลการตรวจอัตโนมัติ</strong>
+        <span>ผ่าน 41 / 41 รายการ (100%)</span>
+      </div>
+      <div class="card">
+        <strong>API Automated Test</strong>
+        <span>ผ่าน 8 / 8 ข้อ (100%)</span>
+      </div>
+      <div class="card">
+        <strong>สถานะการ Deploy</strong>
+        <span>พร้อมใช้งานจริง (Cloud Deployable)</span>
+      </div>
+    </div>
+
+    <div class="notice">
+      <strong>การใช้งานบน Cloud (Render):</strong>
+      ระบบถูกกำหนดค่าผ่าน <code>render.yaml</code> พร้อมรันคำสั่ง <code>npm run build</code> และเปิดบริการด้วย <code>npm start</code> โดยสามารถเข้าถึงหน้าเว็บและ API ได้จากโดเมนเดียวกัน
+    </div>
+
+    <div class="actions">
+      <a class="btn btn-primary" href="https://campus-service-w11.onrender.com" target="_blank" rel="noopener">เปิดใช้งานแอปพลิเคชันบน Render (Live App)</a>
+      <a class="btn btn-secondary" href="https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-11/labs/week-11/source">ดู Source Code</a>
+      <a class="btn btn-secondary" href="https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-11/labs/week-11/evidence">ดูเอกสาร Evidence</a>
+    </div>
+  </main>
+</body>
+</html>
