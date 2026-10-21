@@ -1,0 +1,9 @@
+{
+  "week": "week-07",
+  "title": "REST API Integration and Validation",
+  "status": "ready",
+  "sourceOrigin": "student-created",
+  "submissionTag": "lab-07-submission-v1",
+  "testStatus": "pass",
+  "notes": "Completed CORS, env config, API contract, and integration tests"
+}
