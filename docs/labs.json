@@ -98,15 +98,42 @@
   {
     "week": "week-07",
     "title": "REST API Integration and Validation",
-    "status": "ready",
+    "status": "submitted",
     "sourceOrigin": "student-created",
+    "pullRequestUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/pull/10",
     "submissionTag": "lab-07-submission-v1",
     "testStatus": "pass",
     "notes": "Completed CORS, env config, API contract, and integration tests",
     "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-07/",
     "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-07/labs/week-07/source",
     "hasPublish": false,
-    "sourceEntries": 2
+    "sourceEntries": 7
+  },
+  {
+    "week": "week-09",
+    "title": "Database Design & Relational Modeling (SQLite)",
+    "status": "ready",
+    "sourceOrigin": "student-created",
+    "submissionTag": "lab-09-submission-v1",
+    "testStatus": "pass",
+    "notes": "Relational schema, SQL constraints, foreign keys, and analytical queries",
+    "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-09/",
+    "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-09/labs/week-09/source",
+    "hasPublish": false,
+    "sourceEntries": 9
+  },
+  {
+    "week": "week-10",
+    "title": "Node.js Database Integration (Express & SQLite)",
+    "status": "ready",
+    "sourceOrigin": "student-created",
+    "submissionTag": "lab-10-submission-v1",
+    "testStatus": "pass",
+    "notes": "SQLite integration with prepared statements, foreign keys, transaction, and indexing",
+    "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-10/",
+    "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-10/labs/week-10/source",
+    "hasPublish": false,
+    "sourceEntries": 7
   },
   {
     "week": "week-11",
@@ -118,8 +145,8 @@
     "notes": "Full-stack integration ready for production with config, health check, and CI",
     "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-11/",
     "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-11/labs/week-11/source",
-    "hasPublish": false,
-    "sourceEntries": 0
+    "hasPublish": true,
+    "sourceEntries": 14
   },
   {
     "week": "week-12",
@@ -132,6 +159,19 @@
     "testStatus": "pass",
     "notes": "Fixed 4 bugs, added unit/integration tests, 86.8% coverage, and CI workflow",
     "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-12/",
+    "hasPublish": false,
+    "sourceEntries": 18
+  },
+  {
+    "week": "week-13",
+    "title": "Quality and Security (Validation, Password Hash, JWT, Rate Limiting)",
+    "status": "ready",
+    "sourceOrigin": "student-created",
+    "submissionTag": "lab-13-submission-v1",
+    "testStatus": "pass",
+    "notes": "Completed security headers, login rate limiting, token client header, and Blueprint secret generation",
+    "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-13/",
+    "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-13/labs/week-13/source",
     "hasPublish": false,
     "sourceEntries": 18
   }
