@@ -43,7 +43,7 @@ describe('validateRequestInput — รายละเอียด (ค่าข�
   test('ช่องว่างล้วนถูกตัดทิ้งก่อนนับ → error', () => {
     expect(validateRequestInput(withField({ details: '            ' }))).toHaveLength(1);
   });
-  // 🏫 TODO W12-UNIT (CP45): เพิ่มกรณีจากตาราง TEST_CASES.md ให้ครบ
+  // TODO W12-UNIT (CP45): เพิ่มกรณีจากตาราง TEST_CASES.md ให้ครบ
   //   - 10 ตัวอักษรพอดี → ผ่าน          ← ค่าขอบ
   //   - 11 ตัวอักษร → ผ่าน
   //   - ช่องว่างล้วน → error
@@ -51,7 +51,7 @@ describe('validateRequestInput — รายละเอียด (ค่าข�
 
 });
 
-// 🏫 TODO W12-UNIT (CP45): เพิ่ม describe อื่น ๆ
+// TODO W12-UNIT (CP45): เพิ่ม describe อื่น ๆ
 //   - ชื่อผู้แจ้ง 1 ตัว / 2 ตัว
 //   - ประเภทคำร้องนอกรายการ · priority "high"
 //   - input ผิดรูปแบบ (null · array · ตัวเลข)  ← ลองใช้ test.each([...])
