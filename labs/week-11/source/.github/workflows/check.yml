@@ -2,7 +2,7 @@ name: Campus Service CI
 
 on:
   push:
-    branches: [main, 'unit*/**', 'lab/**']
+    branches: [main, 'unit/**', 'lab/**']
   pull_request:
     branches: [main]
 
