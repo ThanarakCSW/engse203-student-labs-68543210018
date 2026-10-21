@@ -1,13 +1,14 @@
 {
   "week": "week-12",
   "title": "Testing and Debugging (Vitest, Integration Tests, Bug Fixes)",
-  "status": "ready",
+  "status": "submitted",
   "sourceOrigin": "student-created",
+  "pullRequestUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/pull/16#issue-5963741000",
+  "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-12/labs/week-12/source",
   "submissionTag": "lab-12-submission-v1",
   "testStatus": "pass",
   "notes": "Fixed 4 bugs, added unit/integration tests, 86.8% coverage, and CI workflow",
   "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-12/",
-  "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-12/labs/week-12/source",
   "hasPublish": false,
   "sourceEntries": 18
 }
