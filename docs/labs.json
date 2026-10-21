@@ -29,7 +29,7 @@
     "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-02/",
     "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-02/labs/week-02/source",
     "hasPublish": true,
-    "sourceEntries": 11
+    "sourceEntries": 10
   },
   {
     "week": "week-03",
@@ -94,5 +94,45 @@
     "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-06/labs/week-06/source",
     "hasPublish": false,
     "sourceEntries": 1
+  },
+  {
+    "week": "week-07",
+    "title": "REST API Integration and Validation",
+    "status": "ready",
+    "sourceOrigin": "student-created",
+    "submissionTag": "lab-07-submission-v1",
+    "testStatus": "pass",
+    "notes": "Completed CORS, env config, API contract, and integration tests",
+    "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-07/",
+    "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-07/labs/week-07/source",
+    "hasPublish": false,
+    "sourceEntries": 2
+  },
+  {
+    "week": "week-11",
+    "title": "Full-Stack Integration (React, Express, SQLite)",
+    "status": "ready",
+    "sourceOrigin": "student-created",
+    "submissionTag": "lab-11-submission-v1",
+    "testStatus": "pass",
+    "notes": "Full-stack integration ready for production with config, health check, and CI",
+    "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-11/",
+    "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-11/labs/week-11/source",
+    "hasPublish": false,
+    "sourceEntries": 0
+  },
+  {
+    "week": "week-12",
+    "title": "Testing and Debugging (Vitest, Integration Tests, Bug Fixes)",
+    "status": "submitted",
+    "sourceOrigin": "student-created",
+    "pullRequestUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/pull/16#issue-5963741000",
+    "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-12/labs/week-12/source",
+    "submissionTag": "lab-12-submission-v1",
+    "testStatus": "pass",
+    "notes": "Fixed 4 bugs, added unit/integration tests, 86.8% coverage, and CI workflow",
+    "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-12/",
+    "hasPublish": false,
+    "sourceEntries": 18
   }
 ]

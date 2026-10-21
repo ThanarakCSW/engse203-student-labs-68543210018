@@ -54,7 +54,7 @@ NODE_ENV=production PORT=10000 npm start
 
 ## Live Demo
 
-🔗 (ใส่ URL หลัง deploy ขึ้น Render)
+(ใส่ URL หลัง deploy ขึ้น Render)
 
 หมายเหตุ: Render free tier — เปิดครั้งแรกช้า 30–60 วินาที · ข้อมูลที่เพิ่มจะกลับเป็นค่าตั้งต้นเมื่อ restart
 
