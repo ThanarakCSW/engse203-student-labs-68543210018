@@ -1,9 +1,10 @@
 {
   "week": "week-09",
   "title": "Database Design & Relational Modeling (SQLite)",
-  "status": "ready",
+  "status": "submitted",
   "sourceOrigin": "student-created",
   "submissionTag": "lab-09-submission-v1",
+  "pullRequestUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/pull/19#issue-5966157948",
   "testStatus": "pass",
   "notes": "Relational schema, SQL constraints, foreign keys, and analytical queries"
 }
