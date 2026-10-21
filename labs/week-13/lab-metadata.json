@@ -1,9 +1,10 @@
 {
   "week": "week-13",
   "title": "Quality and Security (Validation, Password Hash, JWT, Rate Limiting)",
-  "status": "ready",
+  "status": "submitted",
   "sourceOrigin": "student-created",
   "submissionTag": "lab-13-submission-v1",
+  "pullRequestUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/pull/22#issue-5966550457",
   "testStatus": "pass",
   "notes": "Completed security headers, login rate limiting, token client header, and Blueprint secret generation"
 }
