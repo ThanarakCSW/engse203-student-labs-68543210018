@@ -98,15 +98,44 @@
   {
     "week": "week-07",
     "title": "REST API Integration and Validation",
-    "status": "ready",
+    "status": "submitted",
     "sourceOrigin": "student-created",
     "submissionTag": "lab-07-submission-v1",
+    "pullRequestUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/pull/18#issue-5965899861",
     "testStatus": "pass",
     "notes": "Completed CORS, env config, API contract, and integration tests",
     "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-07/",
     "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-07/labs/week-07/source",
     "hasPublish": false,
-    "sourceEntries": 2
+    "sourceEntries": 7
+  },
+  {
+    "week": "week-09",
+    "title": "Database Design & Relational Modeling (SQLite)",
+    "status": "submitted",
+    "sourceOrigin": "student-created",
+    "submissionTag": "lab-09-submission-v1",
+    "pullRequestUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/pull/19#issue-5966157948",
+    "testStatus": "pass",
+    "notes": "Relational schema, SQL constraints, foreign keys, and analytical queries",
+    "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-09/",
+    "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-09/labs/week-09/source",
+    "hasPublish": false,
+    "sourceEntries": 9
+  },
+  {
+    "week": "week-10",
+    "title": "Node.js Database Integration (Express & SQLite)",
+    "status": "submitted",
+    "sourceOrigin": "student-created",
+    "submissionTag": "lab-10-submission-v1",
+    "pullRequestUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/pull/20#issue-5966353185",
+    "testStatus": "pass",
+    "notes": "SQLite integration with prepared statements, foreign keys, transaction, and indexing",
+    "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-10/",
+    "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-10/labs/week-10/source",
+    "hasPublish": false,
+    "sourceEntries": 7
   },
   {
     "week": "week-11",
