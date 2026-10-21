@@ -3,8 +3,8 @@
   "title": "REST API Integration and Validation",
   "status": "submitted",
   "sourceOrigin": "student-created",
-  "pullRequestUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/pull/10",
   "submissionTag": "lab-07-submission-v1",
+  "pullRequestUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/pull/18#issue-5965899861",
   "testStatus": "pass",
   "notes": "Completed CORS, env config, API contract, and integration tests"
 }
