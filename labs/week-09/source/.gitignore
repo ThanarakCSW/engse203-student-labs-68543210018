@@ -1,0 +1,6 @@
+# เก็บ campus.db ใน Git ตามข้อกำหนด Lab; ไม่เก็บไฟล์ชั่วคราวของ SQLite
+*.db-journal
+*.db-wal
+*.db-shm
+*.log
+.DS_Store
