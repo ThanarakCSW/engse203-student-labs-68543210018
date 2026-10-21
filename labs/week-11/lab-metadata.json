@@ -1,0 +1,9 @@
+{
+  "week": "week-11",
+  "title": "Full-Stack Integration (React, Express, SQLite)",
+  "status": "ready",
+  "sourceOrigin": "student-created",
+  "submissionTag": "lab-11-submission-v1",
+  "testStatus": "pass",
+  "notes": "Full-stack integration ready for production with config, health check, and CI"
+}
