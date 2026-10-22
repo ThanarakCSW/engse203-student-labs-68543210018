@@ -6,7 +6,7 @@
   "submissionTag": "lab-13-submission-v1",
   "pullRequestUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/pull/22#issue-5966550457",
   "testStatus": "pass",
-  "notes": "Completed security headers, login rate limiting, token client header, and Blueprint secret generation",
+  "notes": "Completed security headers, login rate limiting, token client header, and Blueprint secret generation | วิดีโอสาธิต: https://youtu.be/8ZUlkwGdrg4",
   "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-13/",
   "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-13/labs/week-13/source",
   "hasPublish": false,

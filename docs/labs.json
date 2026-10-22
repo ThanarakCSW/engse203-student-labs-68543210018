@@ -77,7 +77,7 @@
     "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-05/",
     "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-05/labs/week-05/source",
     "hasPublish": true,
-    "sourceEntries": 12
+    "sourceEntries": 11
   },
   {
     "week": "week-06",
@@ -145,7 +145,7 @@
     "submissionTag": "lab-11-submission-v1",
     "pullRequestUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/pull/21#issue-5966434931",
     "testStatus": "pass",
-    "notes": "Full-stack integration ready for production with config, health check, and CI",
+    "notes": "Full-stack integration ready for production with config, health check, and CI. Live on Render: https://campus-service-68543210018-6.onrender.com | วิดีโอสาธิต: https://youtu.be/tWrBYKmOOwA",
     "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-11/",
     "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-11/labs/week-11/source",
     "hasPublish": true,
@@ -160,7 +160,7 @@
     "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-12/labs/week-12/source",
     "submissionTag": "lab-12-submission-v1",
     "testStatus": "pass",
-    "notes": "Fixed 4 bugs, added unit/integration tests, 86.8% coverage, and CI workflow",
+    "notes": "Fixed 4 bugs, added unit/integration tests, 86.8% coverage, and CI workflow | วิดีโอสาธิต: https://youtu.be/JMumnHN0OHw",
     "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-12/",
     "hasPublish": false,
     "sourceEntries": 18
@@ -173,7 +173,7 @@
     "submissionTag": "lab-13-submission-v1",
     "pullRequestUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/pull/22#issue-5966550457",
     "testStatus": "pass",
-    "notes": "Completed security headers, login rate limiting, token client header, and Blueprint secret generation",
+    "notes": "Completed security headers, login rate limiting, token client header, and Blueprint secret generation | วิดีโอสาธิต: https://youtu.be/8ZUlkwGdrg4",
     "pageUrl": "https://ThanarakCSW.github.io/engse203-student-labs-68543210018/labs/week-13/",
     "sourceUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/tree/lab/week-13/labs/week-13/source",
     "hasPublish": false,

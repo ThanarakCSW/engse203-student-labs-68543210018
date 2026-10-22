@@ -1,7 +1,7 @@
 # หลักฐานการสาธิต — Campus Service Full-Stack (A4)
 
 ## วิดีโอสาธิต
-(ลิงก์วิดีโอสาธิตระบบ YouTube unlisted หรือ Google Drive)
+- ลิงก์บันทึกวิดีโอสาธิตระบบ (YouTube): https://youtu.be/8ZUlkwGdrg4
 
 ## สิ่งที่สาธิตในวิดีโอ (ครบวงจร)
 

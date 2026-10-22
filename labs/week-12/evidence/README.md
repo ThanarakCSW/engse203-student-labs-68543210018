@@ -9,6 +9,11 @@
 
 ---
 
+## ลิงก์วิดีโอสาธิตการทำงานและการทดสอบ
+- **วิดีโอสาธิตระบบและการทดสอบ (YouTube):** [https://youtu.be/JMumnHN0OHw](https://youtu.be/JMumnHN0OHw)
+
+---
+
 ## สารบัญเอกสารหลักฐาน
 
 1. [รายงานผลการทดสอบฉบับเต็ม (TEST_REPORT.md)](./TEST_REPORT.md)

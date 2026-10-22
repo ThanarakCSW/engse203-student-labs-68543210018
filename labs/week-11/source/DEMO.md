@@ -7,8 +7,9 @@
 
 ---
 
-## 1. ลิงก์วิดีโอสาธิตการทำงาน (Video Demonstration)
-- ลิงก์บันทึกวิดีโอสาธิตระบบ: https://drive.google.com/file/d/demo-video-placeholder/view
+## 1. ลิงก์วิดีโอสาธิตการทำงานและระบบจริงบน Cloud
+- ลิงก์บันทึกวิดีโอสาธิตระบบ (YouTube): https://youtu.be/tWrBYKmOOwA
+- ลิงก์ระบบจริงบน Render (Live Application): https://campus-service-68543210018-6.onrender.com
 
 ---
 

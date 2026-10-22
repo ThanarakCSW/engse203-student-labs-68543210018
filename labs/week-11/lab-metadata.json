@@ -6,5 +6,5 @@
   "submissionTag": "lab-11-submission-v1",
   "pullRequestUrl": "https://github.com/ThanarakCSW/engse203-student-labs-68543210018/pull/21#issue-5966434931",
   "testStatus": "pass",
-  "notes": "Full-stack integration ready for production with config, health check, and CI"
+  "notes": "Full-stack integration ready for production with config, health check, and CI. Live on Render: https://campus-service-68543210018-6.onrender.com | วิดีโอสาธิต: https://youtu.be/tWrBYKmOOwA"
 }

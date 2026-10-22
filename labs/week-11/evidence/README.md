@@ -9,6 +9,12 @@
 
 ---
 
+## ลิงก์ระบบจริงบน Cloud และวิดีโอสาธิตการทำงาน
+- **ระบบจริงบน Render (Live Application):** [https://campus-service-68543210018-6.onrender.com](https://campus-service-68543210018-6.onrender.com)
+- **วิดีโอสาธิตการทำงาน (YouTube):** [https://youtu.be/tWrBYKmOOwA](https://youtu.be/tWrBYKmOOwA)
+
+---
+
 ## สารบัญเอกสารหลักฐาน
 
 1. [รายงานผลการทดสอบฉบับสมบูรณ์ (TEST_REPORT.md)](./TEST_REPORT.md)
